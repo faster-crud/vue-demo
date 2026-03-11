@@ -1,0 +1,27 @@
+{
+  "name": "@faster-crud/vue",
+  "version": "0.1.0",
+  "description": "Vue 3 + Naive UI component library for @faster-crud",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "src/index.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build --mode lib",
+    "dev": "vite"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0",
+    "naive-ui": "^2.38.0",
+    "@faster-crud/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "vue": "^3.4.0",
+    "naive-ui": "^2.38.0",
+    "@faster-crud/core": "^0.1.0",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vue-tsc": "^2.0.0",
+    "typescript": "^5.4.0"
+  }
+}
