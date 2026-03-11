@@ -1,6 +1,6 @@
 {
   "name": "@faster-crud/vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue 3 + Naive UI component library for @faster-crud",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

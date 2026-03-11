@@ -8,3 +8,4 @@ export type { DefineCrudOptions, CrudInstance, ColumnOverride, CrudHooks } from 
 
 export { field, defineSchema } from './field';
 export type { DefineSchemaOptions } from './field';
+export { fetchCrudMeta } from './fetch';
